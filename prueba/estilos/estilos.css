@@ -1,28 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
 }
-input {
-    padding: 10px;
-    margin-right: 10px;
+
+h1, h2 {
+    text-align: center;
+    color: #4A90E2;
+    margin-bottom: 20px;
 }
-button {
-    padding: 10px;
-}
+
 ul {
     list-style-type: none;
     padding: 0;
 }
+
 li {
-    padding: 10px;
-    background: #fff;
-    margin: 5px 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 8px;
+    transition: background 0.3s ease;
 }
+
+li:hover {
+    background: #f7f7f7;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #4A90E2;
+}
+
+#agregarBtn, #agregarBtn2, #agregarBtn3, #agregarBtn4, 
+#agregarBtn5, #agregarBtn6, #agregarBtn7 {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #7be73c; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#agregarBtn:hover, #agregarBtn2:hover, #agregarBtn3:hover, 
+#agregarBtn4:hover, #agregarBtn5:hover, #agregarBtn6:hover, 
+#agregarBtn7:hover {
+    background-color: #5cbf2a; 
+}
+
+li button {
+    padding: 5px 10px;
+    background-color: #e74c3c; 
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+li button:hover {
+    background-color: #c0392b;
+}
+
 .comprado {
     text-decoration: line-through;
-    color: gray;
+    color: #888;
+}
+
+section {
+    margin: 10px 0;
 }
