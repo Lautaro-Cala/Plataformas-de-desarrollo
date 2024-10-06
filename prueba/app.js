@@ -24,7 +24,6 @@ function agregarProducto(dia, inputId, listaId) {
     });
 }
 
-// Aplicamos la función a cada día
 agregarProducto('agregarBtn', 'productoInput', 'listaCompras');
 agregarProducto('agregarBtn2', 'productoInput2', 'listaCompras2');
 agregarProducto('agregarBtn3', 'productoInput3', 'listaCompras3');
